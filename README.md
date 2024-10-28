@@ -1,7 +1,7 @@
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.MyMind">
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=salesp07.Visak">
 
-# BBY-31 -> MyMind
-<img src="https://raw.githubusercontent.com/salesp07/salesp07.github.io/master/public/mymind-responsive.png" alt="MyMind screenshot"/>
+# BBY-31 -> Visak
+<img src="https://raw.githubusercontent.com/salesp07/salesp07.github.io/master/public/Visak-responsive.png" alt="Visak screenshot"/>
 
 ## Contributors
 Towa Quimbayo:
@@ -20,7 +20,7 @@ Alex Gibbison
 [LinkedIn](https://www.linkedin.com/in/alexander-gibbison-786683153/) |
 [GitHub](https://github.com/Soultey )
 
-<img src="https://contrib.rocks/image?repo=salesp07/MyMind" />
+<img src="https://contrib.rocks/image?repo=salesp07/Visak" />
 
 Milestone 1: Login / Logout - 100% Completed\
 Milestone 2: Patient, Therapist, and Admin user types - 100% Completed\
@@ -30,7 +30,7 @@ Milestone 5: Online Chat - 100% Completed
 
 ## One sentence pitch
 Our team BBY31\
-is developing MyMind which is a web application\
+is developing Visak which is a web application\
 to help people struggling with mental health problems\
 to provide professional help from our therapist specialist that can help improve their mental health\
 with guided therapy sessions.

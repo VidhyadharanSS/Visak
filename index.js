@@ -1181,10 +1181,10 @@ function sendPatientEmail(transporter, patientInfo, therapistInfo, cartInfo){
     const mailPatient = {
         from: process.env.MAIL_USER,
         to: patientInfo.email,
-        subject: 'Thank you for purchasing a session with MyMind!',
+        subject: 'Thank you for purchasing a session with Visak!',
         html: `<div style="display:flex;width:100%;background:#09C5A3;"><img src="cid:logo" style="width:15%;margin:auto;padding:1.5rem 1rem 1rem;object-fit:contain;object-position:center center;"></div>
         <div style="display:flex;width:100%;background:#09C5A3;margin-bottom:2rem;"><h1 style="text-align:center;color:#FFF;text-transform:capitalize;font-size:2rem;font-weight:700;padding-top:1rem;padding-bottom:1rem;width: 100%;">Thank you for purchasing!</h1></div>
-        <p style="font-size:14px;color:#000;">We have activated a therapy session with ${therapistInfo.firstName} ${therapistInfo.lastName}. Your session will expire at ${new Date(cartInfo.expiringTime).toLocaleString('en-CA', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })}, and you can view your cart history at our Order History page at any time! We hope you have a wonderful session, thank you for your time and support. To start your journey, please login to your account and visit <a style="color:#09C5A3;text-decoration:none;font-weight:700;" href="https://mymindweb.herokuapp.com/" target="_blank">MyMind</a> to start your journey!</p><p style="font-size:14px;color:#000;">Cheers</p>`,
+        <p style="font-size:14px;color:#000;">We have activated a therapy session with ${therapistInfo.firstName} ${therapistInfo.lastName}. Your session will expire at ${new Date(cartInfo.expiringTime).toLocaleString('en-CA', { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true })}, and you can view your cart history at our Order History page at any time! We hope you have a wonderful session, thank you for your time and support. To start your journey, please login to your account and visit <a style="color:#09C5A3;text-decoration:none;font-weight:700;" href="https://Visakweb.herokuapp.com/" target="_blank">Visak</a> to start your journey!</p><p style="font-size:14px;color:#000;">Cheers</p>`,
         attachments: [{
             filename: 'logo.png',
             path: __dirname + '/public/images/logo.png',

@@ -37,7 +37,7 @@ function getTherapist(therapistId) {
         },
         success: function (therapist) {
             $('#therapistName').text(`${therapist.firstName} ${therapist.lastName}`)
-            $('#therapistDesc').text(`${therapist.yearsExperience} years of experience in the profession, and offers $${therapist.sessionCost} per session`)
+            $('#therapistDesc').text(`${therapist.yearsExperience} years of experience in the profession, and offers ₹${therapist.sessionCost} per session`)
             $('#therapistImg').attr('src', `${therapist.profileImg}`)
             therapistInformation = therapist;
             therapistInformation._id = therapistId;
